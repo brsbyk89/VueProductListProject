@@ -1,7 +1,7 @@
 <template>
         <div class="row product-container">
         <card v-for="item in productlist" v-bind:key="item.Id">
-        <img class="card-img-top" :src="item.selectedImage == null ? '/src/assets/default.png':item.selectedImage" alt="Card image cap">
+        <img class="card-img-top" :src="item.selectedImage == null ? '/default.png':item.selectedImage" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">{{item.name}}</h5>
           <small>
