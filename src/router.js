@@ -15,7 +15,7 @@ export default new Router({
         {
             path: '/Test',
             name: 'Test',
-            component: () => import('./HelloWorld.vue')
+            component: () => import('./components/HelloWorld.vue')
         }
     ]
 })
